@@ -1,12 +1,12 @@
 /* Navigation bar */
 .navbar {
-    background-color: rgb(6, 203, 203); 
+    background-color: rgb(6, 203, 203);
 }
 
 
 .navbar-brand {
-    color: #fff; 
-    font-weight: bold; 
+    color: #fff;
+    font-weight: bold;
     font-size: 24px;
 }
 
@@ -19,13 +19,46 @@
 }
 
 .nav-link {
-    color: #fff; 
-    font-size: 18px; 
-    margin-right: 20px; 
-    transition: color 0.3s;     
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    transition: color 0.3s;
 }
 
 .nav-link:hover {
     background-color: aliceblue;
 }
 
+/* Hero stlying */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(65, 64, 64);
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 64px;
+    color: #fff;
+}
+
+.row {
+    align-items: center;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.line {
+    border-top: 3px solid rgb(6, 203, 203);
+    width: 100%;
+    margin: 20px auto;
+}
