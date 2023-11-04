@@ -62,3 +62,53 @@
     width: 100%;
     margin: 20px auto;
 }
+
+.cool-subtitle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 48px; 
+    font-weight: 600;
+    padding-right: 40px; 
+    padding-bottom: 20px;
+    background: linear-gradient(90deg, #3be5eb, #0b8d91); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+
+
+/* About Me Section */
+.about-heading h3 {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 650;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #3be5eb, #0b8d91);
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+
+.about-name {
+    font-size: bold 40px;
+    font-weight: 650;
+}
+
+
+.about-paragraph {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the Resume Button */
+.btn-primary {
+    background: linear-gradient(90deg, #3be5eb, #0b8d91); /* Gradient background from teal to a darker teal */
+    border-color: #3be5eb;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0b8d91, #3be5eb); /* Gradient background on hover */
+    border-color: #0b8d91;
+}
+
