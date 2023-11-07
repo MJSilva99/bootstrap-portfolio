@@ -113,11 +113,6 @@
     border-color: #3be5eb;
 }
 
-.btn-primary:hover {
-    background: linear-gradient(90deg, #0b8d91, #3be5eb);
-    border-color: #0b8d91;
-}
-
 /* Skills style */
 
 #skills {
@@ -210,9 +205,9 @@
     border-color: #3be5eb;
 }
 
+.btn-primary:hover,
 .btn-secondary:hover {
-    background: linear-gradient(90deg, #0b8d91, #3be5eb);
-    border-color: #0b8d91;
+  box-shadow: #0b8d91
 }
 
 /* Contact styling */
@@ -220,6 +215,12 @@
 #contact {
     margin-top: 50px;
 }
+
+
+#contact a:hover {
+    color: #3be5eb; 
+  }
+  
 
 .contactCards {
     margin-top: 50px;
