@@ -124,7 +124,7 @@
     background-color: rgb(65, 64, 64);
 }
 
-.skills-heading {
+.skillsHeading {
     font-size: 28px;
     font-weight: bold;
     text-align: center;
@@ -161,7 +161,7 @@
 
 .content {
     padding: 50px;
-  }
+}
 
 .card-img-top {
     height: 200px;
@@ -174,7 +174,8 @@
 
 }
 
-.sectionHeading {
+.workHeading {
+    margin-bottom: 10px;
     text-align: center;
     font-size: 40px;
     background: linear-gradient(90deg, #3be5eb, #0b8d91);
@@ -214,3 +215,20 @@
     border-color: #0b8d91;
 }
 
+/* Contact styling */
+
+#contact {
+    margin-top: 50px;
+}
+
+.contactCards {
+    margin-top: 50px;
+}
+
+.contactHeading {
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(90deg, #3be5eb, #0b8d91);
+    -webkit-background-clip: text;
+    color: transparent;
+}
