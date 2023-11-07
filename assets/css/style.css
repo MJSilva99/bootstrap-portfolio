@@ -241,3 +241,20 @@ footer {
     background-color: #333;
   }
 
+/* Media query for mobile */
+  @media (max-width: 576px) {
+
+    .about-heading h3 {
+        font-size: 36px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .cool-subtitle {
+        font-size: 28px;
+        left: 10%;
+    }
+
+  }
